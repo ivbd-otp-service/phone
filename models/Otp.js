@@ -15,7 +15,6 @@ const OtpSchema = new mongoose.Schema({
   },
 });
 
-// Check if model already exists (for Next.js hot-reload)
 const Otp = mongoose.models.Otp || mongoose.model('Otp', OtpSchema);
 
 export default Otp;
