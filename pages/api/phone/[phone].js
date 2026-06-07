@@ -1,5 +1,5 @@
-import dbConnect from '@/lib/dbConnect';
-import Otp from '@/models/Otp';
+import dbConnect from '../../../lib/dbConnect';
+import Otp from '../../../models/Otp';
 
 export default async function handler(req, res) {
   const { phone } = req.query;
